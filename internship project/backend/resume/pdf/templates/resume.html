@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-eqvi="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Doument</title>
+  </head>
+<body>
+    <h2>Name: {{user_profile.name}}</h2>
+    <h2>Phone number: {{user_profile.phone}}</h2>
+    <h2>Email: {{user_profile.email}}</h2>
+    <hr>
+    <h2>Summary</h2>
+    <p><b>Skills:</b> {{user_profile.skill}}</p>
+    <p><b>About You: </b> {{user_profile.about_you}}</p>
+    <p><b>Previous work: </b> {{user_profile.previous_work}}</p>
+    <p><b>Hobbies : </b>{{user_profile.hobbies}}</p>
+    <h2>Education</h2>
+    <ul>
+        <li><b>Degree:</b> {{user_profile.degree}}  </li>
+        <li><b>CGPA: </b> {{user_profile.college_cgpa}} </li>
+        <li><b>School:</b> {{user_profile.school}} </li>
+        <li><b>Achievements: </b> {{user_profile.achievements}}</li>
+    </ul>
+</body>
+</html>
